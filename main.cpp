@@ -9,7 +9,7 @@ int main()
     int key;
 
     begin();
-    loadToTemp(10);
+    loadToTemp(5);
     loadToVector();
     usunTo();
     
