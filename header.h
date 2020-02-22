@@ -31,7 +31,7 @@ char shiftLetter(char letter, int shift) {
 }
 void begin(void) {
     std::string word;
-    read.open("dictionary.txt", std::ios:: in);
+    read.open("default.dic", std::ios:: in);
     if (read.good() == 1) {
         while (!read.eof()) {
             getline(read, word);
